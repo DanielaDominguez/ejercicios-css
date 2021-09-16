@@ -1,0 +1,58 @@
+body {
+    background-image: url("Disneyland-.jpg");
+    background-size: cover;
+}
+.title {
+    background-color: rgba(128, 255, 0, 0.445);
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Indie Flower', cursive;
+    font-weight: 200; /* grosor de letra */
+    font-size: 30px; /* tamaño de letra */
+    
+}
+
+.title1 {
+    background-color: rgba(236, 238, 96, 0.685);
+    border-radius: 30px;
+    text-align: center;
+    font-family: 'Satisfy', cursive;
+    font-weight: 200;
+    font-size: 110px;
+}
+
+.title2 {
+    background-color: rgba(240, 77, 240, 0.445);
+    border-radius: 6px;
+    text-align: center;
+    font-family: 'Amatic SC', cursive;
+    font-weight: 200;
+    font-size: 190px;
+}
+
+.title3 {
+    background-color: rgba(0, 255, 149, 0.445);
+    border-radius: 45px;
+    text-align: center;
+    font-family: 'Allison', cursive;
+    font-weight: 100;
+    font-size: 70px;
+}
+
+.title4 {
+    background-color: rgba(81, 142, 221, 0.609);
+    border-radius: 30px;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    font-weight: 200;
+    font-size: 30px;
+}
+
+.title5 {
+    background-color: rgba(214, 188, 38, 0.445);
+    border-radius: 12px;
+    font-family: 'Sacramento', cursive;
+    text-align: center;
+    font-weight: 200;
+    font-size: 90px;
+}

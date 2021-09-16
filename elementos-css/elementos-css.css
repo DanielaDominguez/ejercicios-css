@@ -1,0 +1,32 @@
+body {
+    background-image: url("https://i.pinimg.com/originals/0d/e1/b3/0de1b387c6d30940599a70c1d417c7dd.jpg");
+}
+.title {
+    text-align: center;
+    color: royalblue;
+    background-color: black;
+    border: 5px dotted red;
+}
+
+.subtitle {
+    background-color: red;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+#caja, #caja2 {
+    background-color: black;
+}
+
+#caja {
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto; 
+    /*margin-top: 100px;
+    margin-bottom: 50px;*/
+}
+#caja p, #caja2 p {
+    color: white;
+}

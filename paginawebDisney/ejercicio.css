@@ -1,0 +1,109 @@
+body {
+
+    background-image:url(CASTILLOD.jpg) ;
+    background-size: cover;
+    background-repeat: repeat;
+    font-size: 10px;
+    height: 100%;
+
+}
+
+h1 {
+    font-family: "Sofia", sans-serif;
+    font-size: 70px;
+    text-align: center;
+    color: rgb(224, 217, 233);
+    text-shadow: rgb(99, 202, 233) 2px 2px 10px;
+}
+
+h2 {
+    text-align: center;
+    color: #3baad6;
+    background-color: #092663;
+    border-radius: 60px;
+    border: 2px solid rgb(41, 216, 207) ;
+    font-size: 35px;
+}
+
+h3 {
+    text-shadow: rgb(36, 121, 78) 2px 2px 10px;
+    text-align: center;
+    color: rgb(177, 207, 187);
+    font-size: 40px;
+}
+
+
+ul {
+    font-size: 26.6px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgba(0, 0, 0, 0);
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+  color: rgb(224, 217, 233);
+  text-align: center;
+  left: 40%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(84, 196, 240);
+}
+
+.Bienvenida {
+  background-color: #3769d68c;
+}
+.OB {
+    background-color: #c34cdb60;
+}
+.Prac {
+    background-color: #3f74c5c0;
+}
+
+.Física{
+    background-color: #22b48880;
+}
+.Juegos {
+    background-color: #4687c9c5;
+}
+.EF {
+    background-color: #22925eb6;
+}
+.Matemáticas {
+    background-color: #99b61ac2;
+}
+.JM {
+    background-color: #c946a8a8;
+}
+.EM {
+    background-color: #e7b616ab;
+}
+.Fin {
+    background-color: darkseagreen;
+    
+}
+.Dis {
+    background-color: #7a6f2f71;
+    color: rgb(248, 159, 207);
+    border: deeppink;
+    border-radius: 60px;
+    font-size: 25px;
+}
+
+
+
+
