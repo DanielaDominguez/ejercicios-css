@@ -21,44 +21,61 @@ h1 {
     color: white;
     background-color: rgb(165, 162, 162);
     font-family: Arial, Helvetica, sans-serif;
+    text-indent: 0.5em;
 }
 
 .imghtml {
-    /* float: left; */
-    margin-left: 150px;
-    width: 200px;
+    float: left;
+    margin-left: 200px;
+    width: 280px;
 }
 
 .text-html {
     text-align: justify;
     text-indent: 2em;
-    width: 70%; /* margenes derecha e izquierda */
-    margin: 0 auto; /* lo centra */
+    line-height: 1.1em;
+    width: 85%; /* margenes derecha e izquierda */
+    margin: 0; /* lo centra */
 }
+
+.seccioncss {
+    display: flex; /* propiedad de posicion */
+    flex-direction: row;
+    width: 80%;
+    margin: 0 auto;
+}
+
 #css {
     width: 80%; /* margenes derecha e izquierda */
     margin: 0 auto; /* lo centra */
     color: white;
     background-color: rgb(165, 162, 162);
     font-family: Arial, Helvetica, sans-serif;
+    text-indent: 0.5em;
 }
 
 .imgcss {
-    float: right;
-    margin-right: 10px ;
+    float: left;
+    margin-left: 170px;
+    width: 260px;
 }
 
 
 .text-css {
     text-align: justify;
     text-indent: 2em;
-    width: 80%; /* margenes derecha e izquierda */
-    margin: 0 auto; /* lo centra */
+    line-height: 1.1em;
+    width: 85%; /* margenes derecha e izquierda */
+    margin: 0; /* lo centra */
 }
 
+.rojo {
+    color: red;
+    font-style: oblique;
 
+}
 
-.clear-fix {
-    clear: both;
-    float: none;
+.negritas {
+    font-weight: bold;
+    background-color: white;
 }
