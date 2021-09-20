@@ -1,0 +1,37 @@
+.container {
+    width: 90%;
+    min-height: 500px; /* tamaño minimo de altura del elemento */
+   /*  height: 500px; */
+    margin: 0 auto;
+    border: 2px solid black;
+    display: flex; /* los coloca en horizontal */
+    /* justify-content: space-between; /* deja espacios entre cuadros */
+    /* justify-content: space-between; */ /* deja espacio en dereche e izquierda */ 
+    justify-content: space-around; /*  espacio entre elementos */
+    flex-wrap: wrap; /* hace que los elementos se bajen */
+    align-items: flex-start; /* nos permite ordenar los elementos de forma vertical, arriba, en medio o abajo */
+
+}
+
+.caja {
+    width: 150px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.caja1 {
+    border: 2px solid red;
+}
+.caja2 {
+    border: 2px solid yellow;
+    align-self: flex-end;
+}
+.caja3 {
+    border: 2px solid royalblue;
+    align-self: center;
+}
+.caja4 {
+    border: 2px solid purple;
+}
